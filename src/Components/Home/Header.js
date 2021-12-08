@@ -9,15 +9,6 @@ const logolaurelsmall = {
   background: "url(.jpg)"
 };
 
-const foot = {
-  position: "absolute",
-  width: "975px",
-  height: "305px",
-  left: "0px",
-  top: "650px",
-  background: "url(.png)"
-}
-
 const nb = {
   padding: "30px 0px 0px 80px"
 }
@@ -109,11 +100,6 @@ export default function Header() {
               <a style={gdscrcciit} className="nav-link active " href="#">  GDSC RCCIIT </a>
             </li>
           </ul>
-
-          <div>
-            <img style={foot} src="/images/google-crowdsource 1.jpg" alt="" />
-          </div>
-
         </div>
       </div>
     </nav>
