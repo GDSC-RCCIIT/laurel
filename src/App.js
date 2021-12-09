@@ -1,19 +1,25 @@
+import logo from './logo.svg';
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
-import Home from './Components/Home';
+import Header from "./MyComponents/Header";
+import {Footer} from "./MyComponents/Footer";
+import {Login} from "./MyComponents/fp";
+import React from 'react';
 
-function App() {
+
+
+class App extends React.Component{
+  render(){
+
+ 
+
   return (
-    <Router>
-      <Routes>
-        <Route exact path="/" element={<Home/>} />
-      </Routes>
-    </Router>
+    <>
+      <Header 
+      title="FP UI"/>
+      <Login/>
+      <Footer/>
+    </>
   );
 }
-
+}
 export default App;
